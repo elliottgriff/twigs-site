@@ -29,9 +29,15 @@
   <ul>
     <li><strong>Bluesky and Mastodon:</strong> if you sign in, Twigs uses the access you grant to read your following
     list and your home timeline. It does not post, like, follow, or send messages.</li>
-    <li><strong>YouTube:</strong> if you sign in with Google, Twigs requests read-only access to your YouTube
-    subscriptions, imports the channels you choose, then revokes its access. It keeps no Google token afterwards.</li>
+    <li><strong>YouTube:</strong> Twigs uses YouTube API Services to find channels. If you sign in with Google,
+    Twigs requests read-only access to your YouTube subscriptions, imports the channels you choose, then revokes its
+    access. It keeps no Google token afterwards. You can also review or remove access at any time in
+    <a href="https://security.google.com/settings/security/permissions">Google's security settings</a>. Use of
+    YouTube features is subject to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the
+    <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
     <li><strong>Substack:</strong> importing your reads uses the public profile for the username you enter.</li>
+    <li><strong>Sharing to Twigs:</strong> when you share a link to Twigs from another app, Twigs looks up that link
+    with the service it points to, to find the account or feed to add.</li>
     <li><strong>Instagram and X:</strong> Twigs does not connect to these services. Tapping one of these accounts
     opens it in its own app or website.</li>
   </ul>
@@ -46,6 +52,6 @@
   <p>Questions about this policy can be sent through
   <a href="https://github.com/elliottgriff/twigs-site/issues">this project's issue tracker</a>.</p>
 
-  <footer><a href="index.html">Twigs</a></footer>
+  <footer><a href="index.html">Twigs</a> · <a href="support.html">Help</a></footer>
 </body>
 </html>
